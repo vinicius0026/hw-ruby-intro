@@ -3,9 +3,7 @@
 # Part 1
 
 def sum arr
-  accumulated = 0
-  arr.each {|n| accumulated += n}
-  accumulated
+  arr.reduce(0, :+)
 end
 
 def max_2_sum arr
