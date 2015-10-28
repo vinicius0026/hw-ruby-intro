@@ -1,0 +1,6 @@
+# Ignore anything starting with .
+.*
+
+# Dont ignore these files
+!.gitignore
+!.rspec
